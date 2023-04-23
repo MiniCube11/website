@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 import Link from "next/link";
 import Head from "./head";
 import { ThemeProvider } from "next-themes";
+import Sidebar from "@/components/Sidebar/Sidebar";
 
 export default function RootLayout({
   children,
@@ -13,14 +14,13 @@ export default function RootLayout({
   return (
     <html>
       <Head />
-      <body className="bg-white text-black">
+      <body className="bg-white text-black dark:bg-gray-900 dark:text-white">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
           disableTransitionOnChange
-        >  
-          <Link href="/">Home</Link>
-          <Link href="/writing">Writing</Link>
+        >
+          <Sidebar />
           {children}
         </ThemeProvider>
       </body>
