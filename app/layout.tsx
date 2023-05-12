@@ -1,7 +1,7 @@
 'use client';
 
 import "@/styles/globals.css";
-import Link from "next/link";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 import Head from "./head";
 import { ThemeProvider } from "next-themes";
 import Sidebar from "@/components/Sidebar/Sidebar";

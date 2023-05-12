@@ -7,8 +7,8 @@ const Sidebar = () => {
             <SidebarLink slug="projects"/>
             <SidebarLink slug="writing" />
             <SidebarLink slug="about" />
-            <SidebarLink slug="github" />
-            <SidebarLink slug="email" />
+            <SidebarLink slug="github" externalLink="https://github.com/MiniCube11" />
+            <SidebarLink slug="email" externalLink="mailto:contact.minicube11@gmail.com" />
         </div>
     )
 };
