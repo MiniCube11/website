@@ -3,7 +3,7 @@ import DarkModeIcon from "./DarkModeIcon";
 
 const Sidebar = () => {
     return (
-        <div className="fixed top-0 space-y-1 h-screen py-2 bg-white">
+        <div className="fixed top-0 space-y-1 h-screen py-2 bg-white dark:bg-gray-900">
             <SidebarLink slug="" />
             <SidebarLink slug="projects"/>
             <SidebarLink slug="writing" />

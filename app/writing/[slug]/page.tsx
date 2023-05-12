@@ -15,7 +15,7 @@ const PostPage = (props: any) => {
     return (
         <div className="mt-20 mx-auto max-w-2xl">
             <h1 className="mb-6">{post.data.title}</h1>
-            <p className="text-gray-700 mb-14">{post.data.date}<span className="ml-8">Ching Lam Lau</span></p>
+            <p className="text-gray-700 mb-14 dark:text-gray-400">{post.data.date}<span className="ml-8">Ching Lam Lau</span></p>
             <div className="post-content mb-20">
                 <Markdown>{post.content}</Markdown>
             </div>

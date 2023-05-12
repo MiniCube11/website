@@ -41,7 +41,7 @@ const SidebarLink = ({ slug = "", externalLink = "" }) => {
     }
 
     let color = "hover:bg-gray-100";
-    if (selected) color = "text-black bg-gray-200";
+    if (selected) color = "bg-gray-200 dark:bg-gray-700";
 
     return (
         <Link
@@ -50,9 +50,9 @@ const SidebarLink = ({ slug = "", externalLink = "" }) => {
             onMouseOver={() => setHovered(true)}
             onMouseOut={() => setHovered(false)}
         >
-            <FontAwesomeIcon icon={icon} className={selected ? 'text-gray-700' : 'text-gray-500'}/>
+            <FontAwesomeIcon icon={icon} className={selected ? 'text-gray-700 dark:text-gray-300' : 'text-gray-500'}/>
             {hovered &&
-                <span className="absolute ml-7 text-gray-800">{tag}</span>
+                <span className="absolute ml-7 text-gray-800 dark:text-gray-300">{tag}</span>
             }
         </Link>
     )

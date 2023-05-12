@@ -21,7 +21,9 @@ const DarkModeIcon = () => {
         >
             <FontAwesomeIcon icon={faMoon} />
             {hovered &&
-                <span className="absolute ml-7 text-gray-800 text-base dark:text-red-500">Night</span>
+                <span className="absolute ml-7 text-gray-800 text-base dark:text-white">
+                    {theme == "light" ? "Dark" : "Light"}
+                </span>
             }
         </span>
     )
