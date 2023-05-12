@@ -14,4 +14,7 @@ Quisque aliquam nunc ac lectus lacinia mattis a ac tellus. Donec vel urna eget t
 
 Lorem ipsum dolor *sit amet*, consectetur adipiscing elit. Ut neque est, sagittis vitae dapibus gravida, scelerisque eget lorem. Sed porttitor velit leo, dapibus congue velit finibus in. **Morbi varius felis at erat** condimentum congue. Nullam blandit, ligula sed fermentum lobortis, [leo turpis ultricies](https://www.lipsum.com/feed/html) dui, in aliquet eros quam ac nunc. Suspendisse sollicitudin nulla viverra aliquam euismod. Integer finibus urna eget nunc suscipit dapibus.
 
+![image](/images/logodesigns.png)
+*images*
+
 Curabitur vitae purus aliquet, dapibus tellus id, ultrices turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent facilisis metus risus, ac mollis turpis tristique vel. Praesent imperdiet erat quis erat maximus, ut ultricies augue scelerisque. Aenean imperdiet sem eu consequat mattis. Morbi pellentesque iaculis ipsum sed rhoncus. Proin luctus laoreet nibh in pellentesque. Pellentesque ultricies suscipit ligula, et placerat leo iaculis in. Proin convallis porta ultrices. Donec consequat tortor feugiat, finibus massa at, sodales metus. Donec iaculis turpis at magna congue lobortis. Integer et mauris nec ex facilisis interdum. In hac habitasse platea dictumst.
