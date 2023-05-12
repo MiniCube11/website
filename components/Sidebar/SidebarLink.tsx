@@ -3,7 +3,7 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faFolder, faPen, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faFolder, faUser, faPen, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const SidebarLink = ({ slug = "", externalLink = "" }) => {
@@ -28,6 +28,9 @@ const SidebarLink = ({ slug = "", externalLink = "" }) => {
             break;
         case "writing":
             icon = faPen;
+            break;
+        case "about":
+            icon = faUser;
             break;
         case "github":
             icon = faGithub;

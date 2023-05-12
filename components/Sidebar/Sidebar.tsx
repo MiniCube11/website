@@ -1,4 +1,5 @@
 import SidebarLink from "./SidebarLink";
+import DarkModeIcon from "./DarkModeIcon";
 
 const Sidebar = () => {
     return (
@@ -9,6 +10,7 @@ const Sidebar = () => {
             <SidebarLink slug="about" />
             <SidebarLink slug="github" externalLink="https://github.com/MiniCube11" />
             <SidebarLink slug="email" externalLink="mailto:contact.minicube11@gmail.com" />
+            <DarkModeIcon />
         </div>
     )
 };
