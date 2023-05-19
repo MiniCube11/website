@@ -18,9 +18,9 @@ const Project = ({ name = "", description = "", image = "", technologies = new A
                         <FontAwesomeIcon icon={faGithub} className="text-indigo-400 hover:text-indigo-500"/>
                     </Link>}
                 </div>
-                <p className="text-sm mt-3 mb-4 text-gray-800">{description}</p>
+                <p className="text-sm mt-3 mb-4 text-gray-800 dark:text-gray-200">{description}</p>
                 {technologies.map(
-                    tech => <span className="cursor-pointer text-xs mr-1 text-gray-600 py-1 px-2 rounded-lg bg-indigo-50">{tech}</span>
+                    tech => <span className="cursor-pointer text-xs mr-1 text-gray-600 py-1 px-2 rounded-lg bg-indigo-50 dark:bg-gray-700 dark:text-gray-200">{tech}</span>
                 )}
             </div>
         </div>
