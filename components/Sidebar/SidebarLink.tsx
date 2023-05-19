@@ -40,13 +40,13 @@ const SidebarLink = ({ slug = "", externalLink = "" }) => {
             break;
     }
 
-    let color = "hover:bg-gray-100";
+    let color = "hover:bg-gray-100 dark:hover:bg-gray-800";
     if (selected) color = "bg-gray-200 dark:bg-gray-700";
 
     return (
         <Link
             href={link}
-            className={"block p-3 w-12 h-12 mx-2 text-center rounded-md text-xl" + color}
+            className={"block p-3 w-12 h-12 mx-2 text-center rounded-md " + color}
             onMouseOver={() => setHovered(true)}
             onMouseOut={() => setHovered(false)}
         >
