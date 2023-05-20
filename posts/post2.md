@@ -1,5 +1,5 @@
 ---
-title: "Blog 2!"
+title: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 subtitle: "2nd blog post"
 date: "2023-04-22"
 ---
