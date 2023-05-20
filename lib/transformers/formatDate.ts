@@ -18,7 +18,7 @@ export const timestampToDate = ({
     includeDay = false,
 }) => {
     const [year, month, day] = timestamp.split("-");
-    let formattedMonth = months[parseInt(month)];
+    let formattedMonth = months[parseInt(month)-1];
 
     const formatted = includeDay ? `${formattedMonth} ${day}, ${year}` : 
     `${formattedMonth} ${year}`;
