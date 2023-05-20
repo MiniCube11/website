@@ -4,10 +4,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
-const Project = ({ name = "", description = "", image = "", technologies = new Array(), link = "", github = "" }) => {
+const Project = ({ name = "", id = "", description = "", image = "", technologies = new Array(), link = "", github = "" }) => {
     return (
-        <div>
-            <Image src={image} alt="Project image" width={1000} height={1000} className="rounded-t-lg"/>
+        <div id={id} className="scroll-mt-4">
+            <Image src={"/images/projects/" + image} alt="Project image" width={1000} height={1000} className="rounded-t-lg"/>
             <div className="pt-6 px-5 pb-6 rounded-b-lg border-2 border-gray-300 border-t-0 dark:border-gray-800">
                 <div className="flex items-center">
                     <h3 className="mr-6 mb-1">{name}</h3>
