@@ -7,9 +7,9 @@ const PostPreviewCard = (post: PostMetadata) => {
 
     return (
         <Link href={`/writing/${post.slug}`} className="group">
-            <div className="px-5 py-3 rounded-md border hover:bg-gray-100">
+            <div className="px-5 py-3 rounded-md border dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700">
                 <p className="font-semibold">{post.title} <span className="ml-1 hidden group-hover:inline-block">→</span></p>
-                <p className="text-sm text-gray-600">{date}</p>
+                <p className="text-sm text-gray-600 dark:text-gray-300">{date}</p>
             </div>
         </Link>
     )
