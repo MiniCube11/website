@@ -5,6 +5,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import Head from "./head";
 import { ThemeProvider } from "next-themes";
 import Sidebar from "@/components/Sidebar/Sidebar";
+import Footer from "@/components/Footer";
 
 export default function RootLayout({
   children,
@@ -22,6 +23,7 @@ export default function RootLayout({
         >
           <Sidebar />
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
