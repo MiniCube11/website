@@ -33,5 +33,9 @@
 }
 
 .post-content p {
-  @apply mb-4 text-lg;
+  @apply mb-4;
+}
+
+.post-content li {
+  @apply list-disc list-inside;
 }
