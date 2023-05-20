@@ -10,7 +10,7 @@ const HomePage = () => {
 
     return (
         <div className="mt-20 mb-6 mx-auto max-w-4xl p-4">
-            <p className="text-blue-400">Hi, my name is</p>
+            <p className="text-indigo-400">Hi, my name is</p>
             <h1 className="mt-2">Ching Lam Lau</h1>
             
             <SectionHeading name="Projects" link="/projects" />

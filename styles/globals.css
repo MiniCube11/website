@@ -29,6 +29,9 @@
   li {
     @apply list-disc list-inside;
   }
+  .highlight:hover {
+    @apply text-indigo-600 transition-colors;
+  }
 }
 
 .post-content h2 {

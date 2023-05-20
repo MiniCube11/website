@@ -9,7 +9,7 @@ const About = () => {
             <p className="mt-5">
                 Some cool things I've been part of:
                 <ul className="mt-1">
-                    <li>Organizing <Link href="https://mini.xdhacks.com/hackteam6/byte-the-web" target="_blank" rel="noopener noreferrer">Byte the Web ↗</Link></li>
+                    <li>Organizing <Link href="https://mini.xdhacks.com/hackteam6/byte-the-web" target="_blank" rel="noopener noreferrer" className="highlight">Byte the Web ↗</Link></li>
                     <li>Representing Canada at the European Girls' Olympiad in Informatics (EGOI)</li>
                 </ul>
             </p>
