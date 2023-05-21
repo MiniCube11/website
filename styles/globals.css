@@ -30,7 +30,7 @@
     @apply list-disc list-inside;
   }
   .highlight:hover {
-    @apply text-indigo-600 transition-colors;
+    @apply text-indigo-600 dark:text-indigo-400 transition-colors;
   }
 }
 
