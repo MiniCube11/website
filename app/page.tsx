@@ -14,7 +14,7 @@ const HomePage = () => {
             <h1 className="mt-2">Ching Lam Lau</h1>
             
             <SectionHeading name="Projects" link="/projects" />
-            <div className="mt-4 grid grid-cols-3 gap-x-1">
+            <div className="mt-4 grid md:grid-cols-2 lg:grid-cols-3 gap-x-1 gap-y-2">
                 {featured.map(project => 
                     <Link key={project.id} href={"/projects#" + project.id}>
                         <ProjectPreview name={project.name} image={project.image} />    
@@ -23,7 +23,7 @@ const HomePage = () => {
             </div>
 
             <SectionHeading name="Writing" link="/writing" />
-            <div className="mt-4 grid grid-cols-3 gap-x-4">
+            <div className="mt-4 grid md:grid-cols-2 lg:grid-cols-3 gap-x-4 gap-y-4">
                 {postMetadata.map((post) => (
                     <PostPreviewCard key={post.slug} {...post} />
                 ))}
