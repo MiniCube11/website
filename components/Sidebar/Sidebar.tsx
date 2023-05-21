@@ -4,12 +4,15 @@ import DarkModeIcon from "./DarkModeIcon";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import SidebarToggle from "./SidebarToggle";
 
 const Sidebar = () => {
     const [navOpen, setNavOpen] = useState(false);
-
+    const [expanded, setExpanded] = useState(false);
+    
     const toggleNavOpen = () => setNavOpen(open => !open);
     const hideNav = () => setNavOpen(false);
+    const toggleSidebar = () => setExpanded(expanded => !expanded);
 
     return (
         <>
@@ -20,14 +23,15 @@ const Sidebar = () => {
                         <FontAwesomeIcon icon={navOpen ? faXmark : faBars} />
                     </span>
                 </div>
-                <div className={`space-y-2 ${navOpen ? 'block' : 'hidden'} lg:block`}>
-                    <SidebarLink slug="" expanded={true} />
-                    <SidebarLink slug="projects" expanded={true} />
-                    <SidebarLink slug="writing" expanded={true} />
-                    <SidebarLink slug="about" expanded={true} />
-                    <SidebarLink slug="github" externalLink="https://github.com/MiniCube11" expanded={true} />
-                    <SidebarLink slug="email" externalLink="mailto:contact.minicube11@gmail.com" expanded={true} />
-                    <DarkModeIcon expanded={true} />
+                <div className={`space-y-2 ${navOpen ? 'block' : 'hidden'} h-screen lg:block`}>
+                    <SidebarLink slug="" expanded={expanded} />
+                    <SidebarLink slug="projects" expanded={expanded} />
+                    <SidebarLink slug="writing" expanded={expanded} />
+                    <SidebarLink slug="about" expanded={expanded} />
+                    <SidebarLink slug="github" externalLink="https://github.com/MiniCube11" expanded={expanded} />
+                    <SidebarLink slug="email" externalLink="mailto:contact.minicube11@gmail.com" expanded={expanded} />
+                    <DarkModeIcon expanded={expanded} />
+                    <SidebarToggle toggleSidebar={toggleSidebar}/>
                 </div>
             </div>
         </>
