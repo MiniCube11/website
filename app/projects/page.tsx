@@ -8,6 +8,7 @@ const Projects = () => {
             <h2>Projects</h2>
             {featured.map(project =>
                 <Project
+                    key={project.id}
                     name={project.name}
                     id={project.id}
                     description={project.description}

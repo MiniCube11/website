@@ -16,7 +16,7 @@ const HomePage = () => {
             <SectionHeading name="Projects" link="/projects" />
             <div className="mt-4 grid grid-cols-3 gap-x-1">
                 {featured.map(project => 
-                    <Link href={"/projects#" + project.id}>
+                    <Link key={project.id} href={"/projects#" + project.id}>
                         <ProjectPreview name={project.name} image={project.image} />    
                     </Link>
                 )}                

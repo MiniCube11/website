@@ -5,12 +5,12 @@ const About = () => {
     return (
         <div className="my-20 mx-auto max-w-2xl p-4">
             <h2>About</h2>
-            <p className="mt-12">Hey, I'm Ching Lam, a high school student from Waterloo. I love making websites, going to hackathons, and participating in programming contests.</p>
+            <p className="mt-12">Hey, I’m Ching Lam, a high school student from Waterloo. I love making websites, going to hackathons, and participating in programming contests.</p>
             <p className="mt-5">
-                Some cool things I've been part of:
+                Some cool things I’ve been part of:
                 <ul className="mt-1">
                     <li>Organizing <Link href="https://mini.xdhacks.com/hackteam6/byte-the-web" target="_blank" rel="noopener noreferrer" className="highlight">Byte the Web ↗</Link></li>
-                    <li>Representing Canada at the European Girls' Olympiad in Informatics (EGOI)</li>
+                    <li>Representing Canada at the European Girls’ Olympiad in Informatics (EGOI)</li>
                 </ul>
             </p>
 

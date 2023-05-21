@@ -20,7 +20,7 @@ const Project = ({ name = "", id = "", description = "", image = "", technologie
                 </div>
                 <p className="text-sm mt-3 mb-4 text-gray-800 dark:text-gray-200">{description}</p>
                 {technologies.map(
-                    tech => <span className="cursor-pointer text-xs mr-1 text-gray-600 py-1 px-2 rounded-lg bg-indigo-50 dark:bg-gray-700 dark:text-gray-200">{tech}</span>
+                    tech => <span key={tech} className="cursor-pointer text-xs mr-1 text-gray-600 py-1 px-2 rounded-lg bg-indigo-50 dark:bg-gray-700 dark:text-gray-200">{tech}</span>
                 )}
             </div>
         </div>
