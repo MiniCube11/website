@@ -4,7 +4,7 @@ import { useTheme } from "next-themes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
-const DarkModeIcon = () => {
+const DarkModeIcon = ({ expanded = false }) => {
     const [hovered, setHovered] = useState(false);
     const { theme, setTheme } = useTheme();
 
