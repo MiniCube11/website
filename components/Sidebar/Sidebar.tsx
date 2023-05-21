@@ -8,7 +8,7 @@ import SidebarToggle from "./SidebarToggle";
 
 const Sidebar = () => {
     const [navOpen, setNavOpen] = useState(false);
-    const [expanded, setExpanded] = useState(false);
+    const [expanded, setExpanded] = useState(true);
     
     const toggleNavOpen = () => setNavOpen(open => !open);
     const hideNav = () => setNavOpen(false);
