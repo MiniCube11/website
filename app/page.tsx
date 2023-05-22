@@ -17,7 +17,7 @@ const HomePage = () => {
             <div className="mt-4 grid md:grid-cols-2 lg:grid-cols-3 gap-x-1 gap-y-2">
                 {featured.map(project => 
                     <Link key={project.id} href={"/projects#" + project.id}>
-                        <ProjectPreview name={project.name} image={project.image} />    
+                        <ProjectPreview name={project.name} image={project.imageSmall} />    
                     </Link>
                 )}                
             </div>
