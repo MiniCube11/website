@@ -30,7 +30,10 @@
     @apply list-disc list-inside;
   }
   .highlight:hover {
-    @apply text-indigo-600 dark:text-indigo-400 transition-colors;
+    @apply text-indigo-600 dark:text-indigo-400 transition-colors ease-in-out duration-200;
+  }
+  .bg-hover {
+    @apply hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ease-in-out duration-200;
   }
 }
 
