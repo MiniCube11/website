@@ -35,6 +35,9 @@
   .bg-hover {
     @apply hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ease-in-out duration-200;
   }
+  .project-hover {
+    @apply group-hover:bg-gray-100 dark:group-hover:bg-gray-800 transition-colors ease-in-out duration-200;
+  }
 }
 
 .post-content h2 {
