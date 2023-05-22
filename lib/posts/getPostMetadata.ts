@@ -1,5 +1,6 @@
 import fs from "fs";
 import matter from "gray-matter";
+
 import { PostMetadata } from "./PostMetadata";
 
 const getPostMetaData = (): PostMetadata[] => {
@@ -17,6 +18,8 @@ const getPostMetaData = (): PostMetadata[] => {
             subtitle: matterResult.data.subtitle,
             slug: fileName.replace(".md", ""),
         }
+    }).sort((post1, post2) => {
+        return (post1.date > post2.date ? -1 : 1);
     });
 
     return posts;
