@@ -44,6 +44,6 @@
   @apply mt-10 mb-4;
 }
 
-.post-content p {
+.post-content p, .post-content ul {
   @apply mb-4;
 }
