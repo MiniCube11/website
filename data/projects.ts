@@ -2,7 +2,7 @@ export const featured = [
     {
         name: "WCI Computer Science",
         id: "wci-computer-science",
-        description: "Website and attendance tracker. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus numquam dolore illo ex necessitatibus qui mollitia.",
+        description: "Website and attendance tracker for WCI's CS Club with 70+ users. Attendees can validate their attendance by scanning a QR code or entering the code through a web form. Initiated and developed the web app for the 2022-23 school year.",
         image: "wcics.png",
         imageSmall: "wcics-sm.png",
         technologies: ["Python", "JavaScript", "Flask", "HTML/CSS", "Google OAuth", "PostgreSQL"],
@@ -12,7 +12,7 @@ export const featured = [
     {
         name: "Notes",
         id: "notes",
-        description: "Minimalistic note-taking app.",
+        description: "Minimalistic note-taking web app inspired by Google Keep. Notes are saved in real-time to the user's account and can be accessed on any device.",
         image: "notes.png",
         imageSmall: "notes-sm.png",
         technologies: ["Python", "JavaScript", "Flask", "HTML/CSS", "jQuery", "Google OAuth", "PostgreSQL"],
@@ -22,7 +22,7 @@ export const featured = [
     {
         name: "Soccer Scores",
         id: "soccer-scores",
-        description: "Web app for viewing soccer scores.",
+        description: "Interactive web app for viewing soccer scores and info fetched from the Football Data API. Provides additional stats like head to head stats, match venue, and more.",
         image: "soccerscores.png",
         imageSmall: "soccerscores-sm.png",
         technologies: ["JavaScript", "React", "Express", "Football Data API"],
