@@ -17,7 +17,7 @@ const PostPage = (props: any) => {
     const date = timestampToDate({ timestamp: post.data.date, includeDay: true });
 
     return (
-        <div className="mt-20 mb-20 mx-auto max-w-2xl">
+        <div className="my-20 mx-auto max-w-2xl p-4">
             <h1 className="mb-6">{post.data.title}</h1>
             <p className="text-gray-700 mb-14 dark:text-gray-400">{date}<span className="ml-8">Ching Lam Lau</span></p>
             <div className="post-content mb-20">
