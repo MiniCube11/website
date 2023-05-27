@@ -16,8 +16,8 @@ const Sidebar = () => {
 
     return (
         <>
-            <div onClick={hideNav} className={`${navOpen ? 'block' : 'hidden'} lg:hidden bg-gray-300 dark:bg-gray-700 opacity-70 w-screen h-screen fixed top-0`}></div>
-            <div className={`fixed top-0 space-y-2 py-2 ${navOpen && 'h-screen'} bg-white dark:bg-gray-900 ${!navOpen && 'backdrop-filter backdrop-blur-lg bg-opacity-40 dark:bg-opacity-40'} lg:backdrop-blur-none`}>
+            <div onClick={hideNav} className={`${navOpen ? 'block' : 'hidden'} lg:hidden bg-gray-300 dark:bg-gray-700 w-screen h-screen fixed top-0`}></div>
+            <div className={`fixed top-0 space-y-2 py-2 ${navOpen && 'h-screen'} bg-white dark:bg-gray-900 ${!navOpen && 'backdrop-filter backdrop-blur-lg bg-opacity-40 dark:bg-opacity-40'} lg:backdrop-blur-none lg:border-r dark:lg:border-gray-700`}>
                 <div className={`${!navOpen && 'w-screen'} bg-opacity-0 lg:hidden`}>
                     <span className={`block p-3 w-12 h-12 mx-2 text-center rounded-md text-gray-500 ${navOpen && 'bg-gray-100 dark:bg-gray-800'}`} onClick={toggleNavOpen}>
                         <FontAwesomeIcon icon={navOpen ? faXmark : faBars} />
