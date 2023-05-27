@@ -26,8 +26,11 @@
   h3 {
     @apply text-xl font-semibold;
   }
-  li {
+  ul > li {
     @apply list-disc list-inside;
+  }
+  ol > li {
+    @apply list-decimal list-inside;
   }
   .highlight:hover {
     @apply text-indigo-600 dark:text-indigo-400 transition-colors ease-in-out duration-200;
@@ -44,7 +47,11 @@
   @apply mt-10 mb-4;
 }
 
-.post-content p, .post-content ul {
+.post-content h3 {
+  @apply mt-8 mb-4;
+}
+
+.post-content p, .post-content ul, .post-content ol {
   @apply mb-4;
 }
 
