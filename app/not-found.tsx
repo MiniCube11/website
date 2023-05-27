@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function NotFound() {
     return (
         <div className="my-32 mx-auto max-w-2xl p-4 text-center">
