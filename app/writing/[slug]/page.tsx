@@ -4,7 +4,7 @@ import getPostMetaData from "@/lib/posts/getPostMetadata";
 import { timestampToDate } from "@/lib/transformers/formatDate";
 import Link from "next/link";
 
-export const generateStaticParams =async () => {
+export const generateStaticParams = async () => {
     const posts = getPostMetaData();
     return posts.map((post) => ({
         slug: post.slug,

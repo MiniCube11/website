@@ -47,3 +47,11 @@
 .post-content p, .post-content ul {
   @apply mb-4;
 }
+
+.post-content a {
+  @apply underline underline-offset-2 decoration-indigo-600 dark:decoration-indigo-400;
+}
+
+.post-content a:hover {
+  @apply text-indigo-600 dark:text-indigo-400 transition-colors ease-in-out duration-200;
+}
