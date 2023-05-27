@@ -39,7 +39,7 @@
     @apply hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors ease-in-out duration-200;
   }
   .project-hover {
-    @apply group-hover:bg-gray-100 dark:group-hover:bg-gray-800 transition-colors ease-in-out duration-200;
+    @apply group-hover:bg-gray-100 dark:group-hover:bg-[#172033] transition-colors ease-in-out duration-200;
   }
 }
 
@@ -55,10 +55,10 @@
   @apply mb-4;
 }
 
-.post-content a {
+.post-content a, .underline-highlight {
   @apply underline underline-offset-2 decoration-indigo-600 dark:decoration-indigo-400;
 }
 
-.post-content a:hover {
+.post-content a:hover, .underline-highlight:hover {
   @apply text-indigo-600 dark:text-indigo-400 transition-colors ease-in-out duration-200;
 }
