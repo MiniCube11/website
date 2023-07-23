@@ -37,8 +37,6 @@ We asked several mentors, who helped us come up with how we could determine if a
 
 While I was at a workshop, a large thunderstorm broke out, and our power went out. This would greatly impact us later in the day.
 
-![thunderstorm](/images/writing/jamhacks6/storm.jpg)
-
 After lunch, we got cardboard from the organizers, and began building our mini toilet for our prototype. The components from our kit were connected on a single board, so we needed to figure out we would attach the components to the mini toilet. Since we were new to hardware, we didn't know how we could break apart the board, or if it was even possible to do so without damaging the board. Luckily, there was a mentor who helped us find pliers and break apart the board into its various components.
 
 ![hardware](/images/writing/jamhacks6/hardware.jpg)
