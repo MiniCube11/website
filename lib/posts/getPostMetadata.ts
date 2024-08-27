@@ -15,7 +15,7 @@ const getPostMetaData = (): PostMetadata[] => {
         return {
             title: matterResult.data.title,
             date: matterResult.data.date,
-            subtitle: matterResult.data.subtitle,
+            description: matterResult.data.description,
             slug: fileName.replace(".md", ""),
         }
     }).sort((post1, post2) => {
