@@ -1,5 +1,6 @@
 ---
-title: "Developing the WCI CS Club website"
+title: "Tracking attendance for WCI's CS Club"
+description: "From design to launch, scaled to 100+ users"
 date: "2022-10-06"
 ---
 

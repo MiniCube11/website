@@ -1,11 +1,12 @@
 ---
-title: "Organizing a 30-hour hackathon"
+title: "Organizing Byte the Web, a food-themed hackathon"
+description: "Behind the scenes as a lead organizer"
 date: "2023-03-12"
 ---
 
 Ever since my first hackathon back in March of 2022, I was hooked into the feeling of hacking together a project in the span of a weekend. It was incredibly rewarding to build a project in less than 48 hours, not to mention the free swag and prizes.
 
-This time, as part of [XdHacks Mini Hack Team 6](https://mini.xdhacks.com/), I had the opportunity to lead a team of 4 to organize [Byte the Web](https://mini.xdhacks.com/hackteam6/byte-the-web), a 30-hour long web-development hackathon.
+This time, as part of [XdHacks Mini Hack Team 6](https://mini.xdhacks.com/), I had the opportunity to lead a team of 4 to organize [Byte the Web](https://mini.xdhacks.com/hackteam6/byte-the-web), a web-development hackathon spanning over a weekend.
 
 The event-planning process began way back in September, all the way until January of 2023. In the beginning, the 4 of us on the team had little to no event-planning experience, and the task of organizing our own event seemed very daunting. The event-planning process wasn't without its challenges, but in the end, we managed to successfully run a hackathon.
 

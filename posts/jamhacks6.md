@@ -1,5 +1,6 @@
 ---
-title: "My hackathon experience at Jamhacks"
+title: "My first in-person hackathon!"
+description: "Hacker experience at JAMHacks 6"
 date: "2022-05-25"
 ---
 
