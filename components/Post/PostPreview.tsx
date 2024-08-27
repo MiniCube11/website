@@ -7,7 +7,10 @@ const PostPreview = (post: PostMetadata) => {
 
     return (
         <Link href={`/writing/${post.slug}`} className="block lg:flex justify-between w-full p-2 -mx-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
-            <p className="text-lg font-semibold">{post.title}</p>
+            <div className="mb-2 lg:mb-0">
+                <p className="text-lg font-semibold">{post.title}</p>
+                <p className="text-gray-600">{post.description}</p>
+            </div>
             <p className="mt-1 lg:m-0 lg:text-lg text-gray-500 dark:text-gray-200">{date}</p>
         </Link>
     )
