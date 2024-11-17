@@ -2,7 +2,7 @@ export const featured = [
     {
         name: "WCI Computer Science",
         id: "wci-computer-science",
-        description: "Website and attendance tracker for WCI's CS Club with 70+ users. Attendees can validate their attendance by scanning a QR code or entering the code through a web form. Initiated and developed the web app for the 2022-23 school year.",
+        description: "Website and attendance tracker for WCI's CS Club with 150+ users. Attendees can validate their attendance by scanning a QR code or entering the code through a web form.",
         learnMore: "/writing/cs-club-website",
         image: "wcics.png",
         imageSmall: "wcics-sm.png",
