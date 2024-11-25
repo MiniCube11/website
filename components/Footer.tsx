@@ -1,18 +1,8 @@
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { useTheme } from "next-themes";
 import Image from "next/image";
 
 
 const Footer = () => {
-    const [mounted, setMounted] = useState(false);
-    const { theme, setTheme } = useTheme();
-    const image = (theme === "light" ? "/images/cswebringlight.svg" : "/images/cswebringdark.svg");
-
-    useEffect(() => {
-        setMounted(true);
-    }, []);
-
     return (
         <footer className="flex flex-col md:flex-row justify-center items-center text-center text-sm text-gray-700 p-8 dark:text-gray-300">
             <Link href="https://github.com/MiniCube11/website" target="_blank" rel="noopener noreferrer" className="highlight">
