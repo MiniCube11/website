@@ -5,16 +5,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const DarkModeIcon = ({ expanded = false }) => {
-    const [mounted, setMounted] = useState(false);
     const [hovered, setHovered] = useState(false);
-    const { theme, setTheme } = useTheme();
-
-    useEffect(() => {
-        setMounted(true);
-    }, []);
+    const { resolvedTheme, setTheme } = useTheme();
 
     const toggleTheme = () => {
-        setTheme(theme == "light" ? "dark" : "light");
+        setTheme(resolvedTheme === "light" ? "dark" : "light");
     }
 
     return (
@@ -25,8 +20,8 @@ const DarkModeIcon = ({ expanded = false }) => {
             onMouseOver={() => setHovered(true)}
             onMouseOut={() => setHovered(false)}
             >
-                <FontAwesomeIcon icon={theme == "light" ? faMoon : faSun} className="w-6 text-sm" />
-                <span className="ml-4 text-sm text-gray-800 dark:text-gray-300">{theme == "light" ? "Dark" : "Light"}</span>
+                <FontAwesomeIcon icon={resolvedTheme === "light" ? faMoon : faSun} className="w-6 text-sm" />
+                <span className="ml-4 text-sm text-gray-800 dark:text-gray-300">{resolvedTheme === "light" ? "Dark" : "Light"}</span>
             </span>
             <span
             onClick={toggleTheme}
@@ -34,10 +29,10 @@ const DarkModeIcon = ({ expanded = false }) => {
             onMouseOver={() => setHovered(true)}
             onMouseOut={() => setHovered(false)}
             >
-                <FontAwesomeIcon icon={theme == "light" ? faMoon : faSun} className="w-6 text-sm" />
+                <FontAwesomeIcon icon={resolvedTheme === "light" ? faMoon : faSun} className="w-6 text-sm" />
                 {hovered &&
                     <span className="absolute ml-7 text-sm text-gray-800 dark:text-gray-300">
-                        {theme == "light" ? "Dark" : "Light"}
+                        {resolvedTheme === "light" ? "Dark" : "Light"}
                     </span>
                 }
             </span>
