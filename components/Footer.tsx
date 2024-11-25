@@ -23,11 +23,20 @@ const Footer = () => {
                 <Link href='https://cs.uwatering.com/#https://chinglamlau.vercel.app/?nav=prev' className="highlight">←</Link>
                 <Link href='https://cs.uwatering.com/#https://chinglamlau.vercel.app/' target='_blank' className="highlight">
                     <Image
-                        src={image}
+                        src="/images/cswebringlight.svg"
                         alt='CS Webring'
                         width={0}
                         height={0}
                         style={{ width: '18px', height: 'auto', opacity: 0.8 }}
+                        className="dark:hidden"
+                    />
+                    <Image
+                        src="/images/cswebringdark.svg"
+                        alt='CS Webring'
+                        width={0}
+                        height={0}
+                        style={{ width: '18px', height: 'auto', opacity: 0.8 }}
+                        className="hidden dark:inline"
                     />
                 </Link>
                 <Link href='https://cs.uwatering.com/#https://chinglamlau.vercel.app/?nav=next' className="highlight">→</Link>
