@@ -29,7 +29,7 @@ Here's the detailed rundown of how I built the website, including how I created 
 
 The first step I like to do when building any website is to gather inspiration from similar websites—in this case, club, organization, and hackathon websites. I sketched out some ideas on paper and transferred it onto a [Figma design](https://www.figma.com/file/hg6c6uV6qIi4PIuG1kADzR/CS-Club-Home-Page-Initial-Design?node-id=0%3A1&t=OTOMsceAPLxiDDYY-1).
 
-I really liked [Hack the North's website (2022)](https://hackthenorth.com/), so the design is largely inspired by their website. I even stretched my design capabilities to create a design of the school, which turned out to be decent.
+I really liked [Hack the North's website (2022)](https://2022.hackthenorth.com/), so the design is largely inspired by their website. I even stretched my design capabilities to create a design of the school, which turned out to be decent.
 
 ![design of wci](/images/writing/cs-club-website/schooldesign.png)
 *Design in Affinity Designer... I spent too many hours on this*
