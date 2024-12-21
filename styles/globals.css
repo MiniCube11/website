@@ -62,3 +62,7 @@
 .post-content a:hover, .underline-highlight:hover {
   @apply text-indigo-600 dark:text-indigo-400 transition-colors ease-in-out duration-200;
 }
+
+.post-content ul {
+  margin-top: -15px;
+}
