@@ -48,13 +48,13 @@ We also:
 - got played tricks on before getting ice cream
 - saw stray cats everywhere
 
-![Antalya](/images/writing/cp-journey/antalya.png)
-*Exploring Antalya after our contest days*
+![Aspendos Theatre](/images/writing/cp-journey/aspendos.png)
+*Visiting Aspendos Theatre after our contest days. Credit: Ava Pun*
 
 In terms of contest performance, I felt quite disappointed by my score on the first contest day. Maybe it was the pressure, or not being used to the contest environment, but ultimately I felt it was because I didn't prepare well enough for EGOI. In between the contest days, we had a boat trip to see sights around Turkiye, which also gave me time to relax and reset; I felt a bit more ready for Day 2. I scored a lot better on Day 2, but I was still pretty far from the medal cutoff due to my score from Day 1.
 
-![Boat trip](/images/writing/cp-journey/boat-trip.png)
-*Our boat trip between the contest days*
+![Waterfall](/images/writing/cp-journey/waterfall.png)
+*One of our sights during the boat trip. Credit: Ava Pun*
 
 As much as I enjoyed my time in Turkiye, the week after EGOI was one of the toughest weeks for me in all of high school. Exhausted from the flight back and jetlag, I had a week's worth of work to catch up on, in a busy grade 11 school year. The additional work and stress definitely didn't help the pressure I was already feeling before the competition. Add to that the feeling that I didn't do as well as I could've.
 
