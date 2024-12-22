@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import SidebarLink from "./SidebarLink";
 import DarkModeIcon from "./DarkModeIcon";
 
@@ -9,11 +10,15 @@ import SidebarToggle from "./SidebarToggle";
 const Sidebar = () => {
     const [navOpen, setNavOpen] = useState(false);
     const [expanded, setExpanded] = useState(true);
+    const pathname = usePathname();
     
     const toggleNavOpen = () => setNavOpen(open => !open);
     const hideNav = () => setNavOpen(false);
     const toggleSidebar = () => setExpanded(expanded => !expanded);
-    const linkClicked = () => setNavOpen(false);
+    
+    useEffect(() => {
+        hideNav();
+    }, [pathname]);
 
     return (
         <>
@@ -25,12 +30,12 @@ const Sidebar = () => {
                     </span>
                 </div>
                 <div className={`space-y-2 ${navOpen ? 'block' : 'hidden'} h-screen lg:block`}>
-                    <SidebarLink slug="" expanded={expanded} linkClicked={linkClicked} />
-                    <SidebarLink slug="projects" expanded={expanded} linkClicked={linkClicked} />
-                    <SidebarLink slug="writing" expanded={expanded} linkClicked={linkClicked} />
-                    <SidebarLink slug="about" expanded={expanded} linkClicked={linkClicked} />
-                    <SidebarLink slug="github" externalLink="https://github.com/MiniCube11" expanded={expanded} linkClicked={linkClicked} />
-                    <SidebarLink slug="email" externalLink="mailto:contact.minicube11@gmail.com" expanded={expanded} linkClicked={linkClicked} />
+                    <SidebarLink slug="" expanded={expanded} />
+                    <SidebarLink slug="projects" expanded={expanded} />
+                    <SidebarLink slug="writing" expanded={expanded} />
+                    <SidebarLink slug="about" expanded={expanded} />
+                    <SidebarLink slug="github" externalLink="https://github.com/MiniCube11" expanded={expanded} />
+                    <SidebarLink slug="email" externalLink="mailto:contact.minicube11@gmail.com" expanded={expanded} />
                     <DarkModeIcon expanded={expanded} />
                     <SidebarToggle toggleSidebar={toggleSidebar}/>
                 </div>
