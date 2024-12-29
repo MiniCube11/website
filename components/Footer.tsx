@@ -10,8 +10,8 @@ const Footer = () => {
                 <span className="mx-2 hidden md:inline">|</span>
             </Link>
             <div className="flex items-center gap-[8px] mt-2 md:mt-0">
-                <Link href='https://cs.uwatering.com/#https://chinglamlau.vercel.app/?nav=prev' className="highlight">←</Link>
-                <Link href='https://cs.uwatering.com/#https://chinglamlau.vercel.app/' target='_blank' className="highlight">
+                <Link href='https://cs.uwatering.com/#https://chinglamlau.ca/?nav=prev' className="highlight">←</Link>
+                <Link href='https://cs.uwatering.com/#https://chinglamlau.ca/' target='_blank' className="highlight">
                     <Image
                         src="/images/cswebringlight.svg"
                         alt='CS Webring'
@@ -29,7 +29,7 @@ const Footer = () => {
                         className="hidden dark:inline"
                     />
                 </Link>
-                <Link href='https://cs.uwatering.com/#https://chinglamlau.vercel.app/?nav=next' className="highlight">→</Link>
+                <Link href='https://cs.uwatering.com/#https://chinglamlau.ca/?nav=next' className="highlight">→</Link>
             </div>
         </footer>
     )    
