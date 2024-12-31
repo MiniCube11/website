@@ -15,7 +15,7 @@ const About = () => {
             </p>
 
             <div className="mt-16 grid md:grid-cols-2">
-                <ContactLink website="Github" handle="MiniCube11" link="https://github.com/MiniCube11"/>
+                <ContactLink website="GitHub" handle="MiniCube11" link="https://github.com/MiniCube11"/>
                 <ContactLink website="Linkedin" handle="ching-lam-lau" link="https://www.linkedin.com/in/ching-lam-lau/"/>
                 <ContactLink website="DMOJ" handle="MiniCube11" link="https://dmoj.ca/user/MiniCube11"/>
                 <ContactLink website="Devpost" handle="MiniCube11" link="https://devpost.com/MiniCube11"/>

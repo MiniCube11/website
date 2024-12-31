@@ -67,7 +67,7 @@ However, in the last few days, one of our workshop hosts told us that they would
 
 ## Day 1
 
-At 10 AM ET, Byte the Web kicked off with the opening ceremony. We had a series of events and workshops lined up for the day, including: Keynote Presentation by Google software engineer Cecille Freeman, Intro to Git/Github, Intro to HTML, CSS, and JavaScript.
+At 10 AM ET, Byte the Web kicked off with the opening ceremony. We had a series of events and workshops lined up for the day, including: Keynote Presentation by Google software engineer Cecille Freeman, Intro to Git/GitHub, Intro to HTML, CSS, and JavaScript.
 
 But the workshop that I was most excited for was a live workshop where I would code a website in under 2 hours (as an attempt to boost audience engagement 😂). The plan was to develop a portfolio website, starting from designing the layout to coding the entire website in HTML and CSS. If you're reading this and you were at my workshop, hopefully you learned something new... or enjoyed watching me forget the very basics of CSS 😅.
 
