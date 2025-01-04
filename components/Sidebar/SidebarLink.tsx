@@ -6,7 +6,7 @@ import Icon from "./Icon";
 const SidebarLink = ({ slug = "", externalLink = "", expanded = false }) => {
     const pathname = usePathname();
     const selected = pathname === ("/" + slug);
-    const tag = slug === "" ? "Home" : slug.charAt(0).toUpperCase() + slug.slice(1);
+    const tag = slug === "" ? "Home" : (slug === "github" ? "GitHub" : slug.charAt(0).toUpperCase() + slug.slice(1));
     const [hovered, setHovered] = useState(false);
 
     let link = "/" + slug;
