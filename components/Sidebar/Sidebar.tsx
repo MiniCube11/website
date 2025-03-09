@@ -37,7 +37,7 @@ const Sidebar = () => {
         <>
             <div onClick={hideNav} className={`${navOpen ? 'block' : 'hidden'} lg:hidden bg-gray-300 dark:bg-gray-700 w-screen h-screen fixed top-0`}></div>
             <div className={`fixed top-0 space-y-2 py-2 ${navOpen && 'h-screen'} bg-white dark:bg-gray-900 ${!navOpen && 'backdrop-filter backdrop-blur-lg bg-opacity-40 dark:bg-opacity-40'} lg:backdrop-blur-none lg:border-r dark:lg:border-gray-700`}>
-                <Link href={"/"} className={`lg:${expanded ? 'inline' : 'invisible'} mb-4 hidden`}>
+                <Link href={"/"} className={`hidden lg:block mb-4 h-[52px] ${!expanded && 'invisible w-0'}`}>
                     <Image src={SignatureLight} alt="Ching Lam Lau" className="p-3 w-36 dark:hidden" />
                     <Image src={SignatureDark} alt="Ching Lam Lau" className="p-3 w-36 hidden dark:inline" />
                 </Link>
