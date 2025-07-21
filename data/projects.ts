@@ -30,16 +30,6 @@ export const featured = [
         github: "https://github.com/MiniCube11/uofthacks",
     },
     {
-        name: "Sticky Notes",
-        id: "sticky-notes",
-        description: "Gesture-controlled tool that lets users save quotes from physical books without context-switching.",
-        image: "stickynotes.png",
-        imageSmall: "stickynotes.png",
-        technologies: ["Python", "OpenCV", "Mediapipe"],
-        link: "https://devpost.com/software/stickyai",
-        github: "https://github.com/MiniCube11/ignitionhacks2024",
-    },
-    {
         name: "WCI Computer Science",
         id: "wci-computer-science",
         description: "Website and attendance tracker for WCI's CS Club with 150+ users. Attendees can validate their attendance by scanning a QR code or entering the code through a web form.",
@@ -49,6 +39,16 @@ export const featured = [
         technologies: ["Python", "JavaScript", "Flask", "HTML/CSS", "Google OAuth", "PostgreSQL"],
         link: "https://wcics.vercel.app/",
         github: "https://github.com/MiniCube11/wcics",
+    },
+    {
+        name: "Sticky Notes",
+        id: "sticky-notes",
+        description: "Gesture-controlled tool that lets users save quotes from physical books without context-switching.",
+        image: "stickynotes.png",
+        imageSmall: "stickynotes.png",
+        technologies: ["Python", "OpenCV", "Mediapipe"],
+        link: "https://devpost.com/software/stickyai",
+        github: "https://github.com/MiniCube11/ignitionhacks2024",
     },
     {
         name: "Lang",
