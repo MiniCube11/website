@@ -1,12 +1,12 @@
 import Project from "@/components/Project/Project";
-import { featured } from "@/data/projects";
+import { projects } from "@/data/projects";
 
 
 const Projects = () => {
     return (
         <div className="my-20 mx-auto max-w-2xl p-4 space-y-16">
             <h2>Projects</h2>
-            {featured.map(project =>
+            {projects.map(project =>
                 <Project
                     key={project.id}
                     name={project.name}
