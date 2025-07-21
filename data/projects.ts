@@ -1,4 +1,4 @@
-export const featured = [
+export const projects = [
     {
         name: "BeFit",
         id: "befit",
