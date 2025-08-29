@@ -53,9 +53,11 @@ Talk to people! Everyone else is in the same place as you are, and many others a
 
 ### Where can I meet new people?
 
-1. Go to your classes. If you see the same people a lot, chances are you'll start talking. One of the ways you can make friends is by studying together. For example, some of the friends I met (and still talk to today), we had the same Math 135 and Math 137 classes. We'd study together during our 1-hour gap between our math classes.
-2. Go to orientation and other social events on campus. The more interactions you have with others means you're more likely to meet someone you get along with.
-3. Join school clubs or design teams. This is a great way to meet more people with similar interests as you, whether that's bonding over cheese or building drones together.
+1\. Go to your classes. If you see the same people a lot, chances are you'll start talking. One of the ways you can make friends is by studying together. For example, some of the friends I met (and still talk to today), we had the same Math 135 and Math 137 classes. We'd study together during our 1-hour gap between our math classes.
+
+2\. Go to orientation and other social events on campus. The more interactions you have with others means you're more likely to meet someone you get along with.
+
+3\. Join school clubs or design teams. This is a great way to meet more people with similar interests as you, whether that's bonding over cheese or building drones together.
 
 Finally, make sure to keep in touch with people you enjoy hanging out with! You'll meet a lot of people in a short period of time. However, for most people, you likely won't talk to them again; I'd recommend putting in effort to stay in touch with a few people you're close with.
 
@@ -65,9 +67,11 @@ The co-op program is what Waterloo is best known for, and I've also heard staff-
 
 ### How should I prepare my resume for applying to jobs?
 
-1. Fix your resume template. Using a good resume template will automatically improve your resume by a lot. [Jake's resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) is a popular resume template.
-2. You should have multiple versions of your resume (provided you have sufficient experience) for applying to different types of jobs, highlighting the skills/keywords that are relevant for the job you're applying to.
-3. Ask your upper year friends to roast your resume. Resume critiques are super helpful and will guide you away from common pitfalls. If you don't know any upper years, go to resume critiques hosted by school clubs (like UW CSC) or your department. You can also book resume review sessions on WaterlooWorks.
+1\. Fix your resume template. Using a good resume template will automatically improve your resume by a lot. [Jake's resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) is a popular resume template.
+
+2\. You should have multiple versions of your resume (provided you have sufficient experience) for applying to different types of jobs, highlighting the skills/keywords that are relevant for the job you're applying to.
+
+3\. Ask your upper year friends to roast your resume. Resume critiques are super helpful and will guide you away from common pitfalls. If you don't know any upper years, go to resume critiques hosted by school clubs (like UW CSC) or your department. You can also book resume review sessions on WaterlooWorks.
 
 ### Do I need to submit a cover letter?
 
