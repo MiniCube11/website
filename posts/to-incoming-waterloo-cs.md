@@ -151,4 +151,4 @@ Enjoy your first year in Waterloo CS :) Time passes by super quickly...
 
 I'm happy to answer any questions! Feel free to reach out (about anything that isn't already covered above).
 
-*Credit to [Victor Huang](https://victorhuang.vercel.app/) for adding his insights. [Contribute here] if you're a current/graduated Waterloo CS student. Note that I'll only include advice/knowledge that I personally think is relevant.*
+*Credit to [Victor Huang](https://victorhuang.vercel.app/) for adding his insights. [Contribute here](https://github.com/MiniCube11/website/blob/main/posts/to-incoming-waterloo-cs.md) if you're a current/graduated Waterloo CS student. Note that I'll only include advice/knowledge that I personally think is relevant.*
