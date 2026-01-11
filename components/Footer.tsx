@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="flex flex-col md:flex-row justify-center items-center text-center text-sm text-gray-700 p-8 dark:text-gray-300">
             <Link href="https://github.com/MiniCube11/website" target="_blank" rel="noopener noreferrer" className="highlight">
-                Designed and developed by Ching Lam Lau © 2025 
+                Designed and developed by Ching Lam Lau © 2026 
                 <span className="mx-2 hidden md:inline">|</span>
             </Link>
             <div className="flex items-center gap-[8px] mt-2 md:mt-0">
