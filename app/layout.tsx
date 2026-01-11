@@ -6,6 +6,7 @@ import Head from "./head";
 import { ThemeProvider } from "next-themes";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import Footer from "@/components/Footer";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export default function RootLayout({
   children,
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Sidebar />
           {children}
           <Footer />
+          <GoogleAnalytics gaId="G-3PKLWEDC19" />
         </ThemeProvider>
       </body>
     </html>
