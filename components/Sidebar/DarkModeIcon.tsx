@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useTheme } from "next-themes";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,7 +9,13 @@ const DarkModeIcon = ({ expanded = false }) => {
     const { resolvedTheme, setTheme } = useTheme();
 
     const toggleTheme = () => {
-        setTheme(resolvedTheme === "light" ? "dark" : "light");
+        const isDark =
+            resolvedTheme
+                ? resolvedTheme === "dark"
+                : typeof document !== "undefined" &&
+                  document.documentElement.classList.contains("dark");
+
+        setTheme(isDark ? "light" : "dark");
     }
 
     return (
@@ -20,8 +26,14 @@ const DarkModeIcon = ({ expanded = false }) => {
             onMouseOver={() => setHovered(true)}
             onMouseOut={() => setHovered(false)}
             >
-                <FontAwesomeIcon icon={resolvedTheme === "light" ? faMoon : faSun} className="w-6 text-sm" />
-                <span className="ml-4 text-sm text-gray-800 dark:text-gray-300">{resolvedTheme === "light" ? "Dark" : "Light"}</span>
+                <span className="dark:hidden">
+                    <FontAwesomeIcon icon={faMoon} className="w-6 text-sm" />
+                </span>
+                <span className="hidden dark:inline">
+                    <FontAwesomeIcon icon={faSun} className="w-6 text-sm" />
+                </span>
+                <span className="ml-4 text-sm text-gray-800 dark:text-gray-300 dark:hidden">Dark</span>
+                <span className="hidden ml-4 text-sm text-gray-800 dark:text-gray-300 dark:inline">Light</span>
             </span>
             <span
             onClick={toggleTheme}
@@ -29,11 +41,21 @@ const DarkModeIcon = ({ expanded = false }) => {
             onMouseOver={() => setHovered(true)}
             onMouseOut={() => setHovered(false)}
             >
-                <FontAwesomeIcon icon={resolvedTheme === "light" ? faMoon : faSun} className="w-6 text-sm" />
+                <span className="dark:hidden">
+                    <FontAwesomeIcon icon={faMoon} className="w-6 text-sm" />
+                </span>
+                <span className="hidden dark:inline">
+                    <FontAwesomeIcon icon={faSun} className="w-6 text-sm" />
+                </span>
                 {hovered &&
-                    <span className="absolute ml-7 text-sm text-gray-800 dark:text-gray-300">
-                        {resolvedTheme === "light" ? "Dark" : "Light"}
-                    </span>
+                    <>
+                        <span className="absolute ml-7 text-sm text-gray-800 dark:text-gray-300 dark:hidden">
+                            Dark
+                        </span>
+                        <span className="absolute ml-7 text-sm text-gray-800 dark:text-gray-300 hidden dark:inline">
+                            Light
+                        </span>
+                    </>
                 }
             </span>
         </>

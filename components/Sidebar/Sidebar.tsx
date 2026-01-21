@@ -13,7 +13,6 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import SidebarToggle from "./SidebarToggle";
 
 const Sidebar = () => {
-    const [mounted, setMounted] = useState(false);
     const [navOpen, setNavOpen] = useState(false);
     const [expanded, setExpanded] = useState(true);
     const pathname = usePathname();
@@ -23,15 +22,8 @@ const Sidebar = () => {
     const toggleSidebar = () => setExpanded(expanded => !expanded);
     
     useEffect(() => {
-        setMounted(true);
         hideNav();
     }, [pathname]);
-
-    if (!mounted) {
-        return (
-            <div></div>
-        );
-    }
 
     return (
         <>
