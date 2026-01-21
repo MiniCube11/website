@@ -1,6 +1,6 @@
 ---
 title: "Making handwritten notes searchable with AI"
-description: ""
+description: "The technical details of Paperflow"
 date: "2025-12-13"
 ---
 

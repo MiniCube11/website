@@ -1,6 +1,6 @@
 ---
 title: "Organizing Byte the Web, a food-themed hackathon"
-description: "Behind the scenes as a lead organizer"
+description: "Behind the scenes as a lead organizer at XdHacksMini"
 date: "2023-03-12"
 ---
 

@@ -1,6 +1,11 @@
 import Project from "@/components/Project/Project";
 import { projects } from "@/data/projects";
+import { Metadata } from "next";
 
+export const metadata: Metadata = {
+    title: "Projects - Ching Lam Lau",
+    description: "A collection of my personal projects",
+};
 
 const Projects = () => {
     return (

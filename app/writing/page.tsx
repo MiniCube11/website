@@ -1,5 +1,11 @@
 import PostPreview from "@/components/Post/PostPreview";
 import getPostMetaData from "@/lib/posts/getPostMetadata";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Writing - Ching Lam Lau",
+    description: "A collection of my writing",
+};
 
 const WritingPage = () => {
     const postMetadata = getPostMetaData();

@@ -1,6 +1,6 @@
 ---
 title: "On maximizing productivity"
-description: ""
+description: "My reflection on being productive"
 date: "2025-02-13"
 ---
 

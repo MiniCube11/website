@@ -1,5 +1,11 @@
 import ContactLink from "@/components/About/ContactLink";
 import Link from "next/link";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "About - Ching Lam Lau",
+    description: "engineer, writer & thinker",
+};
 
 const About = () => {
     return (

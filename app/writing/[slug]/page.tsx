@@ -3,12 +3,23 @@ import getPostContent from "@/lib/posts/getPostContent";
 import getPostMetaData from "@/lib/posts/getPostMetadata";
 import { timestampToDate } from "@/lib/transformers/formatDate";
 import Link from "next/link";
+import { Metadata } from "next";
 
 export const generateStaticParams = async () => {
     const posts = getPostMetaData();
     return posts.map((post) => ({
         slug: post.slug,
     }))
+}
+
+export async function generateMetadata(
+    { params }: { params: { slug: string } }
+): Promise<Metadata> {
+    const post = getPostContent(params.slug);
+    return {
+        title: `${post.data.title} - Ching Lam Lau`,
+        description: post.data.description || "",
+    };
 }
 
 const PostPage = (props: any) => {

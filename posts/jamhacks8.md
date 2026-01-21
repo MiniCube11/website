@@ -1,6 +1,6 @@
 ---
 title: "Running around UW E7 as a JAMHacks organizer"
-description: "The chaotic weekend at JAMHacks 8"
+description: "Organizing JAMHacks 8 as a co-lead"
 date: "2024-08-28"
 ---
 
