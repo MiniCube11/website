@@ -1,7 +1,7 @@
 import { usePathname } from "next/navigation";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faFolder, faPen, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faFolder, faPen, faImage, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Icon = ({ slug = "" }) => {

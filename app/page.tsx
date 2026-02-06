@@ -24,7 +24,7 @@ const HomePage = () => {
                         I've been to 13 hackathons, organized 2 <Link href="/writing/jamhacks8" className="link-muted">hackathons</Link>, and previously did <Link href="/writing/cp-journey" className="link-muted">programming contests</Link>.
                     </p>
                     <p>
-                        In my free time, I run (trying to hit 10k), climb, read books, <Link href="/writing" className="link-muted">write</Link>, and take <Link href="#" className="link-muted">photos</Link>. I also used to <Link href="https://dribbble.com/MiniCube11" target="_blank" rel="noopener noreferrer" className="link-muted">design</Link> and <Link href="https://scratch.mit.edu/users/MiniCube11/" target="_blank" rel="noopener noreferrer" className="link-muted">make games</Link>.
+                        In my free time, I run (trying to hit 10k), climb, read books, <Link href="/writing" className="link-muted">write</Link>, and take <Link href="/photos" className="link-muted">photos</Link>. I also used to <Link href="https://dribbble.com/MiniCube11" target="_blank" rel="noopener noreferrer" className="link-muted">design</Link> and <Link href="https://scratch.mit.edu/users/MiniCube11/" target="_blank" rel="noopener noreferrer" className="link-muted">make games</Link>.
                     </p>
                 </div>
                 <div className="mt-8 flex flex-wrap gap-x-4 gap-y-1">
