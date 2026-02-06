@@ -1,7 +1,7 @@
 import { usePathname } from "next/navigation";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHouse, faFolder, faUser, faPen, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faHouse, faFolder, faPen, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Icon = ({ slug = "" }) => {
@@ -18,9 +18,6 @@ const Icon = ({ slug = "" }) => {
             break;
         case "writing":
             icon = faPen;
-            break;
-        case "about":
-            icon = faUser;
             break;
         case "github":
             icon = faGithub;

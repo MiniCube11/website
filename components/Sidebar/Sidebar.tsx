@@ -42,7 +42,6 @@ const Sidebar = () => {
                     <SidebarLink slug="" expanded={expanded} />
                     <SidebarLink slug="projects" expanded={expanded} />
                     <SidebarLink slug="writing" expanded={expanded} />
-                    <SidebarLink slug="about" expanded={expanded} />
                     <SidebarLink slug="github" externalLink="https://github.com/MiniCube11" expanded={expanded} />
                     <SidebarLink slug="email" externalLink="mailto:contact.minicube11@gmail.com" expanded={expanded} />
                     <DarkModeIcon expanded={expanded} />
