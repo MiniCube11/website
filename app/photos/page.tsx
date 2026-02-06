@@ -9,9 +9,11 @@ export const metadata: Metadata = {
 
 const PhotosPage = () => {
     return (
-        <div className="my-20 mx-auto max-w-7xl p-4 w-full space-y-16">
-            <h2>Photography</h2>
-            <PhotoGallery photos={photos} />
+        <div className="w-full lg:px-48">
+            <div className="my-20 mx-auto max-w-7xl p-4 w-full space-y-16">
+                <h2>Photography</h2>
+                <PhotoGallery photos={photos} />
+            </div>
         </div>
     );
 };
