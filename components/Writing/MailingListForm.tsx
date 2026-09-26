@@ -2,6 +2,8 @@
 
 import { FormEvent, useState } from "react";
 
+const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
 const MailingListForm = () => {
     const [message, setMessage] = useState<string>();
     const [firstName, setFirstName] = useState("");
@@ -13,6 +15,12 @@ const MailingListForm = () => {
         event.preventDefault();
         const form = event.currentTarget;
         setMessage(undefined);
+
+        if (!emailPattern.test(email.trim())) {
+            setMessage("Please enter a valid email address.");
+            return;
+        }
+
         setIsSubmitting(true);
 
         try {
@@ -38,7 +46,7 @@ const MailingListForm = () => {
     return (
         <div>
             <p className="text-lg text-gray-600 dark:text-gray-300 italic">Want to hear when I write something new?</p>
-            <form className="mt-1 -mx-2 flex w-full flex-col gap-4 p-2 sm:flex-row sm:items-center" onSubmit={handleSubmit}>
+            <form className="mt-1 -mx-2 flex w-full flex-col gap-4 p-2 sm:flex-row sm:items-center" noValidate onSubmit={handleSubmit}>
                 <input
                     aria-label="Preferred name"
                     autoComplete="given-name"
@@ -47,7 +55,6 @@ const MailingListForm = () => {
                     name="name"
                     onChange={(event) => setFirstName(event.target.value)}
                     placeholder="What should I call you?"
-                    required
                 />
                 <input
                     aria-label="Email"
@@ -57,7 +64,6 @@ const MailingListForm = () => {
                     name="email"
                     onChange={(event) => setEmail(event.target.value)}
                     placeholder="me@email.com"
-                    required
                     type="email"
                 />
                 <button
