@@ -1,4 +1,5 @@
 import PostPreview from "@/components/Post/PostPreview";
+import MailingListForm from "@/components/Writing/MailingListForm";
 import getPostMetaData from "@/lib/posts/getPostMetadata";
 import { Metadata } from "next";
 
@@ -18,6 +19,7 @@ const WritingPage = () => {
                     <PostPreview key={post.slug} {...post} />
                 ))}
             </div>
+            <MailingListForm />
         </div>
     )
 };
