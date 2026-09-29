@@ -27,8 +27,8 @@ const Sidebar = () => {
 
     return (
         <>
-            <div onClick={hideNav} className={`${navOpen ? 'block' : 'hidden'} lg:hidden bg-gray-300 dark:bg-gray-700 w-screen h-screen fixed top-0`}></div>
-            <div className={`fixed top-0 space-y-2 py-2 ${navOpen && 'h-screen'} bg-white dark:bg-gray-900 ${!navOpen && 'backdrop-filter backdrop-blur-lg bg-opacity-40 dark:bg-opacity-40'} lg:backdrop-blur-none lg:border-r dark:lg:border-gray-700`}>
+            <div onClick={hideNav} className={`${navOpen ? 'block' : 'hidden'} fixed inset-0 z-40 h-screen w-screen bg-gray-300 dark:bg-gray-700 lg:hidden`}></div>
+            <div className={`fixed left-0 top-0 z-50 space-y-2 py-2 ${navOpen && 'h-screen'} bg-white dark:bg-gray-900 ${!navOpen && 'backdrop-filter backdrop-blur-lg bg-opacity-40 dark:bg-opacity-40'} lg:backdrop-blur-none lg:border-r dark:lg:border-gray-700`}>
                 <Link href={"/"} className={`hidden lg:block mb-4 h-[52px] ${!expanded && 'invisible w-0'}`}>
                     <Image src={SignatureLight} alt="Ching Lam Lau" className="p-3 w-36 dark:hidden" />
                     <Image src={SignatureDark} alt="Ching Lam Lau" className="p-3 w-36 hidden dark:inline" />

@@ -2,6 +2,138 @@
 @tailwind components;
 @tailwind utilities;
 
+::view-transition-group(hackathon-image),
+::view-transition-old(hackathon-image),
+::view-transition-new(hackathon-image) {
+  animation-duration: 600ms;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@keyframes hackathon-image-grow {
+  from {
+    opacity: 0.75;
+    transform: scale(0.3333);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes hackathon-image-shrink {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0.65;
+    transform: scale(0.3333);
+  }
+}
+
+@keyframes hackathon-caption-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes hackathon-switch-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0.55;
+    transform: scale(0.985);
+  }
+}
+
+@keyframes hackathon-switch-in {
+  from {
+    opacity: 0.55;
+    transform: scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes hackathon-caption-switch-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes hackathon-caption-switch-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.55;
+  }
+}
+
+.hackathon-image-opening {
+  animation: hackathon-image-grow 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hackathon-image-closing {
+  animation: hackathon-image-shrink 450ms cubic-bezier(0.64, 0, 0.78, 0) both;
+}
+
+.hackathon-caption-opening {
+  animation: hackathon-caption-enter 300ms 220ms ease-out both;
+}
+
+.hackathon-caption-closing {
+  animation: hackathon-caption-enter 200ms ease-in reverse both;
+}
+
+.hackathon-caption-switch-out {
+  animation: hackathon-caption-switch-out 160ms ease-out both;
+}
+
+.hackathon-image-switch-out {
+  animation: hackathon-switch-out 160ms ease-out both;
+}
+
+.hackathon-image-switch-in {
+  animation: hackathon-switch-in 600ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.hackathon-caption-switch-in {
+  animation: hackathon-caption-switch-in 320ms cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(hackathon-image),
+  ::view-transition-old(hackathon-image),
+  ::view-transition-new(hackathon-image) {
+    animation-duration: 1ms;
+  }
+
+  .hackathon-image-opening,
+  .hackathon-image-closing,
+  .hackathon-caption-opening,
+  .hackathon-caption-closing,
+  .hackathon-image-switch-out,
+  .hackathon-caption-switch-out,
+  .hackathon-image-switch-in,
+  .hackathon-caption-switch-in {
+    animation-duration: 1ms;
+    animation-delay: 0ms;
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
